@@ -1,0 +1,37 @@
+https://www.science.org/doi/10.1126/science.aap9112
+F: yes, it has a doi and is open access. 
+A: Open access, the licence conditiones are stated under https://www.science.org/content/page/science-licenses-journal-article-reuse. Not open licence
+I: Yes, the data are accessible in a excel file
+R: It staes submission date, aceptance and publication as well as corrrection date.
+
+https://github.com/Paulilein/Perera2018
+F: Public but without a DOI. 
+A: The licence to use / citation preferences are not listesd. 
+I: CSV file is widely used. No protocoll or read me (extensive)
+R: Partially. The data notebooks are not clearly labelled adn the READ Me is very bare bones, no instructions on how to use the code. Meta data is there in form of when the last changes were made. 
+
+https://pubs.rsc.org/ta/content/articlehtml/2024/md/d4md00196f
+F: Yes, it has a ISSN, DOI, PMID, PMCID. Th repos have zenodo DOIs and records. 
+A: Licence is staed on github, open licence 
+I: Very good, extensive Read me file and the data are in tsvfile format and appear to be clear. 
+R: They actually don't state in the paper what python version they used, though they do state the versions of the packages. 
+
+https://zenodo.org/records/17370136
+F: yes it has a doi, but people without a cyrillic keyboard will have trouble finiding it. 
+A: it's written in the cyrillic alphabet so it's hard for non cyrillic readers. The file can be downloded but there are no supplementary data. 
+I: a pdf is a standard format. 
+R: Meta data is on the page. it's free licence
+
+https://zenodo.org/records/17369268
+F: yes, doi. It's only published in german, maeks it harder to find. 
+A: open licence under cretive commons. 
+I: yes, link to github in th pdf and in zenodo, very clear read me and data in csv format. The data are all in german, makes it less interoperable. 
+R: deocumentation is very extensive, licence is stated, meta data is readiliy availible and easy to find. Language makes it more difficult for non german speakers to find and use the data. 
+
+https://zenodo.org/records/11611178
+F: yes, doi
+A: yes, open licence, on free to use platforms (zendoro, github)
+I: github link, website telling you how to download code and use it. english language 
+R: versoin history, no published paper stating the results from the data set. 
+
+My conclusion: All of them save for the github entry have a doi, but nit's not enough to make it FAIR. I've noticed the language dependancy (widely spoken languages / languages amny can understand) and clear read me files on github play a large role. without a clear read me file it is very difficut to understand how the data should be used / what to do to use it. From personal experience, I've also encountered examples where there is a repo linked in a paper / supp mat. but no longer active because the authors wanted to develop it to a commercial product. This goes against FAIR principle because the reader can no longer rationalise or repeat the results from the paper.
